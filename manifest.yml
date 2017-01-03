@@ -1,0 +1,7 @@
+---
+applications:
+- name: helloworld-app
+  buildpack: https://github.com/danielkennedy/cf-buildpack-mule
+  memory: 512M
+  instances: 1
+  random-route: true
